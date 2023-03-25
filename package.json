@@ -13,13 +13,13 @@
   "types": "./dist/browser.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/browser.mjs",
-      "require": "./dist/browser.js",
+      "import": "./dist/browser.js",
+      "require": "./dist/browser.cjs",
       "node": "./dist/node.js"
     },
     "./node": {
-      "import": "./dist/node.mjs",
-      "require": "./dist/node.js"
+      "import": "./dist/node.js",
+      "require": "./dist/node.cjs"
     }
   },
   "typesVersions": {
